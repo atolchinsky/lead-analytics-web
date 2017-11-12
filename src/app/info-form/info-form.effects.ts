@@ -20,6 +20,6 @@ export class InfoFormEffects {
         // If successful, dispatch success action with result
         .map(res => ({ type: infoForm.LOAD_SUCCESS, payload: res.json() }))
         // If request fails, dispatch failed action
-        .catch(() => Observable.of({ type: infoForm.LOAD_FAIL}))
+        //.catch(() => Observable.of({ type: infoForm.LOAD_FAIL}))
       );
 }

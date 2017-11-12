@@ -85,13 +85,13 @@
       "directive-selector": [
           true,
           "attribute",
-          "fs",
+          "la",
           "camelCase"
       ],
       "component-selector": [
           true,
           "element",
-          "fs",
+          "la",
           "kebab-case"
       ],
       "use-input-property-decorator": true,
